@@ -52,7 +52,8 @@ class PAA5100EJ():
         """ You can now chose between either the the PAA5100EJ or the PMW3901.
             Just un-comment/comment the corresponding init_registers method"""
         
-        self._init_registers_PAA5100EJ()        
+	# there was a typo here, the method was originally caled with an "ej" at the end, which doesnt exist
+        self._init_registers_PAA5100()        
         # self._init_registers_PMW3901()
         
         self._init_registers_led()
