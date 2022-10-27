@@ -33,6 +33,6 @@ while True:
     ty += y
     
     print("Motion: {:03d} {:03d} x: {:03d} y {:03d}".format(x, y, tx, ty))
-    time.sleep(0.01)
+    time.sleep(0.5)
     
     
